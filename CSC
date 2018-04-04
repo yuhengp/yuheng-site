@@ -1,0 +1,14 @@
+<html>
+     <body>
+           <h1>bye world</h1>
+           <h2>Why I picked up web develpoment</h2>
+               <p>i flip coin<br>actually coin too heavy so i use <a href="https://www.google.com.sg/search?q=flip+a+coin&rlz=1C1CHBF_enSG789SG789&oq=flip+a+coin&aqs=chrome..69i57j0l5.2189j0j7&sourceid=chrome&ie=UTF-8">this</a></p>
+           <h2>Sites i wish were blocked on school wifi</h2>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQ9nVtS6erxS7K0dHjRKEGVQC4vk4EZM_ZT1rVlW4NaqyxNxm" width="50" length="70">
+           <a href="http://www.ri.edu.sg/">AuSpIcIum<br>MeLioRiS<br>AeViiiiiiiiiiiii</a><br>
+           <a href="https://goto.ri.edu.sg/?">GOTO go home</a>
+           <h2>Halimah Yacob</h2>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD9GvPYuMN7-drVGg86ZmEHoZIFvXypJbvRCzJHlHe5uWg1TVUA">
+           <p>she very good at acting as president of singapore<br>election also can act<sub>halp PAP halp</sub><br>Here's her most famous movie:<a href="https://en.wikipedia.org/wiki/Singaporean_presidential_election,_2017">The Singapore Presidential election</a><br>This masterpiece of a movie was relased in 2017, to excellent reviews across the country.</p>
+     </body>
+<html>         
