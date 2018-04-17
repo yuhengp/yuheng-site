@@ -4,14 +4,30 @@
      <body>
            <center><h1>Bye world</h1><sub>dont worry im not depressed</sub>
            <h2>Why I picked up web develpoment</h2>
-               <p id="para1">1.i flip coin. actually coin too heavy so i use <a id="link1" href="https://www.google.com.sg/search?q=flip+a+coin&rlz=1C1CHBF_enSG789SG789&oq=flip+a+coin&aqs=chrome..69i57j0l5.2189j0j7&sourceid=chrome&ie=UTF-8">this</a><br>
+              <p id="para1">1.i flip coin. actually coin too heavy so i use <a id="link1" href="https://www.google.com.sg/search?q=flip+a+coin&rlz=1C1CHBF_enSG789SG789&oq=flip+a+coin&aqs=chrome..69i57j0l5.2189j0j7&sourceid=chrome&ie=UTF-8">this</a><br>
 			   2.and make webpages like this</p> 
            <h2>Sites i wish were blocked on school wifi</h2>
-           <p id="para2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQ9nVtS6erxS7K0dHjRKEGVQC4vk4EZM_ZT1rVlW4NaqyxNxm" width="50" length="70">
-           <a id="link1" href="http://www.ri.edu.sg/">AuSpIcIum<br>MeLiOrIs<br>AeViIiIiIiI</a><br><br>
-           <a id="link1" href="https://goto.ri.edu.sg/?">GOTO go home</a></p>     
-           <h2 >Halimah Yacob</h2>
-            <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD9GvPYuMN7-drVGg86ZmEHoZIFvXypJbvRCzJHlHe5uWg1TVUA">
-             <p id="para3">she very good at acting as president of singapore<br>election also can act<sub>halp PAP halp</sub><br>Here's her most famous movie:<a href="https://en.wikipedia.org/wiki/Singaporean_presidential_election,_2017">The Singapore Presidential election</a><br>This masterpiece of a movie was relased in 2017, to excellent reviews across the country.</p></center>
+             <p id="para2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQ9nVtS6erxS7K0dHjRKEGVQC4vk4EZM_ZT1rVlW4NaqyxNxm" width="50" length="70">
+               <a id="link1" href="http://www.ri.edu.sg/">AuSpIcIum<br>MeLiOrIs<br>AeViIiIiIiI</a><br><br>
+               <a id="link1" href="https://goto.ri.edu.sg/?">GOTO go home</a></p>     
+           <h2>Halimah Yacob</h2>
+             <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD9GvPYuMN7-drVGg86ZmEHoZIFvXypJbvRCzJHlHe5uWg1TVUA">
+               <p id="para3">she very good at acting as president of singapore<br>election also can act<sub>halp PAP halp</sub><br>Here's her most famous movie:<a href="https://en.wikipedia.org/wiki/Singaporean_presidential_election,_2017">The Singapore Presidential election</a><br>This masterpiece of a movie was relased in 2017, to excellent reviews across the country.</p></center>
+           <form>
+            <form name="calculator" >
+            <div>
+               <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+               <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+               <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+            <div>   
+               <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+               <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+               <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+            <div>   
+               <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+               <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+               <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+               <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+           </form>
      </body>
 <html>         
