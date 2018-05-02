@@ -1,10 +1,33 @@
 <html>
     <head>
-	 <link rel="stylesheet" href="file.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          $("#para1").click(function(){
+            alert("this is an alert!");
+            $(".text").load("http://wd.comsci.club/api/kv.php?key=test1")
+          });
+ var _hash = window.location.hash;
+if( _hash ){
+var x = parseInt( window.location.hash.replace("#", ""));
+x = x+1;
+window.location.hash=x;
+document.getElementById("count").innerHTML =
+    x.toString() 
+}else{
+  window.location.hash = "1"
+}
+        } );
+      </script>
+    	 <link rel="stylesheet" href="file.css">
+       
+    </head>
      <body>
            <center><h1>Bye world</h1><sub>dont worry im not depressed</sub>
+            <h3>Powered by:<img src="images/cancerlogo.jpg"width="300"length="120"href="http://wd.comsci.club/"></h3>
            <h2>Why I picked up web develpoment</h2>
-              <p id="para1">1.i flip coin. actually coin too heavy so i use <a id="link1" href="https://www.google.com.sg/search?q=flip+a+coin&rlz=1C1CHBF_enSG789SG789&oq=flip+a+coin&aqs=chrome..69i57j0l5.2189j0j7&sourceid=chrome&ie=UTF-8">this</a><br>
+           <p id="count"></p>
+              <p id="para1">1.i flip coin. actually coin too heavy so i use <a id="link" href="https://www.google.com.sg/search?q=flip+a+coin&rlz=1C1CHBF_enSG789SG789&oq=flip+a+coin&aqs=chrome..69i57j0l5.2189j0j7&sourceid=chrome&ie=UTF-8">this</a><br>
 			   2.and make webpages like this</p> 
            <h2>Sites i wish were blocked on school wifi</h2>
              <p id="para2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQ9nVtS6erxS7K0dHjRKEGVQC4vk4EZM_ZT1rVlW4NaqyxNxm" width="50" length="70">
@@ -12,22 +35,34 @@
                <a id="link1" href="https://goto.ri.edu.sg/?">GOTO go home</a></p>     
            <h2>Halimah Yacob</h2>
              <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD9GvPYuMN7-drVGg86ZmEHoZIFvXypJbvRCzJHlHe5uWg1TVUA">
-               <p id="para3">she very good at acting as president of singapore<br>election also can act<sub>halp PAP halp</sub><br>Here's her most famous movie:<a href="https://en.wikipedia.org/wiki/Singaporean_presidential_election,_2017">The Singapore Presidential election</a><br>This masterpiece of a movie was relased in 2017, to excellent reviews across the country.</p></center>
-           <form>
-            <form name="calculator" >
-            <div>
-               <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
-               <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
-               <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
-            <div>   
-               <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
-               <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
-               <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
-            <div>   
-               <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
-               <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
-               <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
-               <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
-           </form>
+               <p id="para3">she very good at acting as president of singapore<br>election also can act<sub>halp PAP halp</sub><br>Here's her most famous movie:<a id="link" href="https://en.wikipedia.org/wiki/Singaporean_presidential_election,_2017">The Singapore Presidential election</a><br>This masterpiece of a movie was relased in 2017, to excellent reviews across the country.</p></center>
+           <div class="container">
+  <fieldset id="container">
+    <form name="calculator">
+
+      <input id="display" type="text" name="display" readonly>
+      <br> 
+      <input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
+      <input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
+      <input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
+      <input class="button mathButtons" type="button" value="+" onclick="calculator.display.value += ' + '">
+      <br>
+      <input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
+      <input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
+      <input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
+      <input class="button mathButtons" type="button" value="-" onclick="calculator.display.value += ' - '">
+      <br>
+      <input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
+      <input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
+      <input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
+      <input class="button mathButtons" type="button" value="x" onclick="calculator.display.value += ' * '">
+      <br>
+      <input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
+      <input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
+      <input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+      <input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += ' / '">
+    </form>
+  </fieldset>
+</div>
      </body>
-<html>         
+<html>     
